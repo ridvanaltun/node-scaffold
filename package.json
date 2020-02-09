@@ -1,0 +1,35 @@
+{
+  "name": "node-scaffold-xyz",
+  "version": "0.0.0-semantically-released",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release",
+    "cz": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ridvanaltun/node-scaffold.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ridvanaltun/node-scaffold/issues"
+  },
+  "homepage": "https://github.com/ridvanaltun/node-scaffold#readme",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.0",
+    "cz-conventional-changelog": "^3.1.0",
+    "semantic-release": "^17.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
