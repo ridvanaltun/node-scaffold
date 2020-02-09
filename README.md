@@ -4,7 +4,7 @@
 
 > This is a test project for learn to use CCS (Conventional Commits Standard) and some other techniques in my projects.
 
-## Why [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+## Why
 
 I feel need to learn some tools and techniques for my future works therefore i created this repo to make it happen.
 
