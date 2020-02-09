@@ -12,6 +12,7 @@ I feel need to learn some tools and techniques for my future works therefore i c
 
 - semantic-release
 - commitizen
+- commitlint
 - husky
 - travis ci
 - editorconfig
