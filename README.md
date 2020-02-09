@@ -15,3 +15,5 @@ I feel need to learn some tools and techniques for my future works therefore i c
 - husky
 - travis ci
 - editorconfig
+- eslint
+- lint-staged
