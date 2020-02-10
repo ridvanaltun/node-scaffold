@@ -19,3 +19,4 @@ I feel need to learn some tools and techniques for my future works therefore i c
 - eslint
 - lint-staged
 - typescript
+- jest
