@@ -6,7 +6,8 @@
   "scripts": {
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
-    "cz": "git-cz",
+    "commit": "git-cz",
+    "build": "npm run tsc",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "tsc": "tsc"
@@ -45,17 +46,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "tsc && lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "./node_modules/.bin/eslint — fix --no-error-on-unmatched-pattern",
-      "git add"
-    ]
   }
 }
