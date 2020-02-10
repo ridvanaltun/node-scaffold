@@ -6,7 +6,11 @@ before_script:
 jobs:
   include:
     - stage: test
-      script: echo "Passing test stage ..."
+      script: echo "Testing Started ..."
+      script: echo "Linting ..."
+      script: npm run lint-fix
+      script: echo "Jest ..."
+      script: npm run test
 after-success:
   - echo "Semantic Release Deployment .."
   - npm run semantic-release
