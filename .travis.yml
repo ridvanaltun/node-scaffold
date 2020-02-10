@@ -8,7 +8,7 @@ jobs:
     - stage: test
       script: echo "Testing Started ..."
       script: echo "Linting ..."
-      script: npm run lint-fix
+      script: npm run lint
       script: echo "Jest ..."
       script: npm run test
 after-success:
