@@ -1,1 +1,1 @@
-module.exports.sqr = (border) => border * border;
+module.exports.sqr = (border: number) => border * border;
