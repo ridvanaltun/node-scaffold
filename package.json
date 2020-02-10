@@ -15,8 +15,8 @@
     "url": "https://github.com/ridvanaltun/node-scaffold.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Ridvan Altun",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ridvanaltun/node-scaffold/issues"
   },

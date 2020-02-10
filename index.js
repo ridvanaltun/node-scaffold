@@ -1,1 +1,1 @@
-process.exit(0);
+module.exports.sqr = (border) => border * border;
