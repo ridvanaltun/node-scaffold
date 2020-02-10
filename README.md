@@ -20,3 +20,4 @@ I feel need to learn some tools and techniques for my future works therefore i c
 - lint-staged
 - typescript
 - jest
+- typedoc

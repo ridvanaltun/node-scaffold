@@ -1,8 +1,10 @@
-import Math from '../example/math';
+import Cal from '../example/math';
+
+const Math = new Cal();
 
 describe('Math', () => {
   describe('Basic function test', () => {
-  test('sum', () => {
+    test('sum', () => {
       expect(Math.sum(1, 2)).toBe(3);
     });
 
