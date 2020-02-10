@@ -2,13 +2,14 @@
   "name": "node-scaffold-xyz",
   "version": "0.0.0-semantically-released",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
     "cz": "git-cz",
     "lint": "eslint .",
-    "lint-fix": "eslint . --fix"
+    "lint-fix": "eslint . --fix",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
@@ -28,13 +29,17 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@semantic-release/changelog": "^5.0.0",
+    "@types/node": "^13.7.0",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
     "cz-conventional-changelog": "^3.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
     "husky": "^4.2.1",
     "lint-staged": "^10.0.7",
-    "semantic-release": "^17.0.2"
+    "semantic-release": "^17.0.2",
+    "typescript": "^3.7.5"
   },
   "config": {
     "commitizen": {
