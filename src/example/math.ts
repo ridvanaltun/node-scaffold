@@ -1,4 +1,3 @@
-
 /**
  * Provide functions for calculations.
  *
@@ -23,7 +22,7 @@ class Math {
    *
    * @returns number
    */
-  mul = (a: number, b: number): number => a * b
+  mul = (a: number, b: number): number => a * b;
 
   /**
    * Subtracts the two given values.
@@ -33,7 +32,7 @@ class Math {
    *
    * @returns number
    */
-  sub = (a: number, b: number): number => a - b
+  sub = (a: number, b: number): number => a - b;
 
   /**
    * Divides the two given values.
@@ -43,7 +42,7 @@ class Math {
    *
    * @returns number
    */
-  div = (a: number, b: number) : number => a / b
+  div = (a: number, b: number): number => a / b;
 
   /**
    * Squares the given value.
@@ -52,7 +51,7 @@ class Math {
    *
    * @returns number
    */
-  sqr = (a: number): number => a * a
+  sqr = (a: number): number => a * a;
 }
 
 export default Math;

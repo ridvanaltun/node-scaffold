@@ -2,5 +2,6 @@
 /build
 /.git
 /node_modules
+/docs
 package.json
 package-lock.json
