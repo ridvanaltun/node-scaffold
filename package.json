@@ -10,7 +10,7 @@
     "commit": "git-cz",
     "build": "npm run tsc",
     "lint": "eslint .",
-    "lint-fix": "eslint . --fix",
+    "lint:fix": "eslint . --fix",
     "tsc": "tsc",
     "docs": "typedoc"
   },
